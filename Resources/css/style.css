@@ -1,0 +1,153 @@
+/* Header section */
+
+header {
+  display:flex;
+  align-items:center;
+  justify-content: space-between;
+  border-bottom: 1px solid seashell;
+  position:fixed;
+  width:100%;
+  background-color: black;
+  height:69px;
+  top:0;
+}
+.logo img {
+  height:50px;
+  margin-left: 10px;
+}
+.logo{
+  display:flex;
+  align-items:center;
+}
+nav span {
+  text-decoration: underline;
+}
+/* Content section */
+
+.content {
+  padding-top:40px;
+}
+.Tea {
+  text-align: center;
+  padding-top: 80px;
+}
+.images {
+  display:flex;
+  justify-content: space-between;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding-bottom: 40px;
+}
+.Teasection {
+  display:flex;
+  flex-direction:column;
+}
+.Teasection img {
+padding:20px 20px;
+}
+.Teasection span {
+  text-align: center;
+}
+.line {
+display:inline-flex;
+flex-direction: row;
+}
+.content img {
+  width:300px;
+  height:200px;
+}
+.Locations {
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+height:600px;
+width: 1200px;
+margin-left: 25px;
+display:flex;
+padding-top: 40px;
+}
+#Locations {
+  display:flex;
+  align-items:center;
+  flex-direction: column;
+}
+.mission1 {
+  background-color: black;
+  width:100%;
+}
+.Mission {
+background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+height:700px;
+width:1200px;
+display:flex;
+text-align: center;
+align-items: center;
+margin-left: 25px;
+}
+.Locations h2 {
+  text-align: center;
+}
+.last {
+  display:flex;
+  justify-content: center;
+}
+.last div {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:center;
+}
+.last div h3 {
+  padding-top: 0;
+}
+.East {
+  margin-right: 40px;
+  margin-left: 40px;
+}
+.Downtown, .East, .Oak {
+    display:inline-flex;
+    flex-direction:column;
+    align-items: center;
+    width:300px;
+    height:300px;
+    background-color: black;
+    margin-bottom: 30px;
+  }
+.Oak {
+  opacity: 1;
+  }
+.Downtown span, .East span, .Oak span {
+padding-bottom:40px;
+}
+.last h3 {
+  padding-bottom:10px;
+}
+/* Universal section*/
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  color: seashell;
+  opacity: 0.9;
+  margin:0;
+}
+h3 {
+  padding-top: 60px;
+}
+a {
+  color: seashell;
+  padding-right: 30px;
+}
+/* Footer section */
+.copy {
+text-align: left;
+padding-left: 20px;
+}
+.footer {
+padding-top: -20px;
+}
+footer {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
